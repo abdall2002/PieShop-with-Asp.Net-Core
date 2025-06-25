@@ -16,12 +16,21 @@ namespace BethenyPieShop.Controllers
             _categoryRepository = categoryRepository;
         }
 
-        public ActionResult List()
+        public IActionResult List()
         {
             //ViewBag.CurrentCategory = "Cheese cake";
             //return View(_pieRepository.AllPies);
-            PieListViewModel pieListViewModel = new PieListViewModel(_pieRepository.AllPies, "Cheese cake");
+            PieListViewModel pieListViewModel = new PieListViewModel(_pieRepository.AllPies, "All Pies");
             return View(pieListViewModel);
+        }
+        public IActionResult Details(int id)
+        {
+            var pie = _pieRepository.GetPieById(id);
+            if (pie == null)
+            {
+                return NotFound();
+            }
+            return View(pie);
 
         }
 
