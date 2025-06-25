@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BethenyPieShop.Migrations
 {
     [DbContext(typeof(BethenysPieShopDbContext))]
-    [Migration("20250625120541_InitialMigration")]
-    partial class InitialMigration
+    [Migration("20250625150259_AddShoppingCartItem")]
+    partial class AddShoppingCartItem
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -90,6 +90,30 @@ namespace BethenyPieShop.Migrations
                     b.ToTable("Pies");
                 });
 
+            modelBuilder.Entity("BethenyPieShop.Models.ShoppingCartItem", b =>
+                {
+                    b.Property<int>("ShoppingCartItemId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ShoppingCartItemId"));
+
+                    b.Property<int>("Amount")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PieId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ShoppingCartId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ShoppingCartItemId");
+
+                    b.HasIndex("PieId");
+
+                    b.ToTable("ShoppingCardItems");
+                });
+
             modelBuilder.Entity("BethenyPieShop.Models.Pie", b =>
                 {
                     b.HasOne("BethenyPieShop.Models.Category", "Category")
@@ -99,6 +123,17 @@ namespace BethenyPieShop.Migrations
                         .IsRequired();
 
                     b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("BethenyPieShop.Models.ShoppingCartItem", b =>
+                {
+                    b.HasOne("BethenyPieShop.Models.Pie", "Pie")
+                        .WithMany()
+                        .HasForeignKey("PieId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Pie");
                 });
 
             modelBuilder.Entity("BethenyPieShop.Models.Category", b =>
