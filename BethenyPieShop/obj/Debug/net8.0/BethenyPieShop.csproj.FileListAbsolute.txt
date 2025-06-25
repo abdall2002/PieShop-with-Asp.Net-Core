@@ -30,3 +30,5 @@ C:\Users\training.3\source\repos\BethenyPieShop\BethenyPieShop\obj\Debug\net8.0\
 C:\Users\training.3\source\repos\BethenyPieShop\BethenyPieShop\obj\Debug\net8.0\BethenyPieShop.pdb
 C:\Users\training.3\source\repos\BethenyPieShop\BethenyPieShop\obj\Debug\net8.0\BethenyPieShop.genruntimeconfig.cache
 C:\Users\training.3\source\repos\BethenyPieShop\BethenyPieShop\obj\Debug\net8.0\ref\BethenyPieShop.dll
+C:\Users\training.3\source\repos\BethenyPieShop\BethenyPieShop\bin\Debug\net8.0\libman.json
+C:\Users\training.3\source\repos\BethenyPieShop\BethenyPieShop\bin\Debug\net8.0\BethenyPieShop.staticwebassets.runtime.json

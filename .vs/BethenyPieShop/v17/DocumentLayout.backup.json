@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\training.3\\source\\repos\\BethenyPieShop\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F48B96E5-FCF4-4C19-927C-120867B6CEB3}|BethenyPieShop\\BethenyPieShop.csproj|c:\\users\\training.3\\source\\repos\\bethenypieshop\\bethenypieshop\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F48B96E5-FCF4-4C19-927C-120867B6CEB3}|BethenyPieShop\\BethenyPieShop.csproj|solutionrelative:bethenypieshop\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F48B96E5-FCF4-4C19-927C-120867B6CEB3}|BethenyPieShop\\BethenyPieShop.csproj|c:\\users\\training.3\\source\\repos\\bethenypieshop\\bethenypieshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F48B96E5-FCF4-4C19-927C-120867B6CEB3}|BethenyPieShop\\BethenyPieShop.csproj|solutionrelative:bethenypieshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F48B96E5-FCF4-4C19-927C-120867B6CEB3}|BethenyPieShop\\BethenyPieShop.csproj|c:\\users\\training.3\\source\\repos\\bethenypieshop\\bethenypieshop\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F48B96E5-FCF4-4C19-927C-120867B6CEB3}|BethenyPieShop\\BethenyPieShop.csproj|solutionrelative:bethenypieshop\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -75,6 +83,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "libman.json",
+              "DocumentMoniker": "C:\\Users\\training.3\\source\\repos\\BethenyPieShop\\BethenyPieShop\\libman.json",
+              "RelativeDocumentMoniker": "BethenyPieShop\\libman.json",
+              "ToolTip": "C:\\Users\\training.3\\source\\repos\\BethenyPieShop\\BethenyPieShop\\libman.json",
+              "RelativeToolTip": "BethenyPieShop\\libman.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-25T10:20:47.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\training.3\\source\\repos\\BethenyPieShop\\BethenyPieShop\\appsettings.json",
+              "RelativeDocumentMoniker": "BethenyPieShop\\appsettings.json",
+              "ToolTip": "C:\\Users\\training.3\\source\\repos\\BethenyPieShop\\BethenyPieShop\\appsettings.json",
+              "RelativeToolTip": "BethenyPieShop\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-25T10:19:28.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\training.3\\source\\repos\\BethenyPieShop\\BethenyPieShop\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "BethenyPieShop\\Views\\_ViewImports.cshtml",
@@ -87,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\training.3\\source\\repos\\BethenyPieShop\\BethenyPieShop\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "BethenyPieShop\\Views\\_ViewStart.cshtml",
@@ -100,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\training.3\\source\\repos\\BethenyPieShop\\BethenyPieShop\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "BethenyPieShop\\Views\\Shared\\_Layout.cshtml",
@@ -113,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "PieListViewModel.cs",
               "DocumentMoniker": "C:\\Users\\training.3\\source\\repos\\BethenyPieShop\\BethenyPieShop\\ViewModels\\PieListViewModel.cs",
               "RelativeDocumentMoniker": "BethenyPieShop\\ViewModels\\PieListViewModel.cs",
@@ -126,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "List.cshtml",
               "DocumentMoniker": "C:\\Users\\training.3\\source\\repos\\BethenyPieShop\\BethenyPieShop\\Views\\Pie\\List.cshtml",
               "RelativeDocumentMoniker": "BethenyPieShop\\Views\\Pie\\List.cshtml",
@@ -139,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "PieController.cs",
               "DocumentMoniker": "C:\\Users\\training.3\\source\\repos\\BethenyPieShop\\BethenyPieShop\\Controllers\\PieController.cs",
               "RelativeDocumentMoniker": "BethenyPieShop\\Controllers\\PieController.cs",
@@ -152,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\training.3\\source\\repos\\BethenyPieShop\\BethenyPieShop\\Program.cs",
               "RelativeDocumentMoniker": "BethenyPieShop\\Program.cs",
@@ -165,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\training.3\\source\\repos\\BethenyPieShop\\BethenyPieShop\\Models\\Category.cs",
               "RelativeDocumentMoniker": "BethenyPieShop\\Models\\Category.cs",
@@ -178,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "MockCategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\training.3\\source\\repos\\BethenyPieShop\\BethenyPieShop\\Models\\MockCategoryRepository.cs",
               "RelativeDocumentMoniker": "BethenyPieShop\\Models\\MockCategoryRepository.cs",
@@ -191,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "MockPieRepository.cs",
               "DocumentMoniker": "C:\\Users\\training.3\\source\\repos\\BethenyPieShop\\BethenyPieShop\\Models\\MockPieRepository.cs",
               "RelativeDocumentMoniker": "BethenyPieShop\\Models\\MockPieRepository.cs",
@@ -204,7 +238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "ICategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\training.3\\source\\repos\\BethenyPieShop\\BethenyPieShop\\Models\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "BethenyPieShop\\Models\\ICategoryRepository.cs",
@@ -217,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "IPieRepository.cs",
               "DocumentMoniker": "C:\\Users\\training.3\\source\\repos\\BethenyPieShop\\BethenyPieShop\\Models\\IPieRepository.cs",
               "RelativeDocumentMoniker": "BethenyPieShop\\Models\\IPieRepository.cs",
@@ -230,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Pie.cs",
               "DocumentMoniker": "C:\\Users\\training.3\\source\\repos\\BethenyPieShop\\BethenyPieShop\\Models\\Pie.cs",
               "RelativeDocumentMoniker": "BethenyPieShop\\Models\\Pie.cs",
