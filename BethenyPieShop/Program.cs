@@ -22,5 +22,5 @@ if(app.Environment.IsDevelopment())
     app.UseDeveloperExceptionPage();
 }
 app.MapDefaultControllerRoute();
-
+DbInitializer.Seed(app);
 app.Run();
