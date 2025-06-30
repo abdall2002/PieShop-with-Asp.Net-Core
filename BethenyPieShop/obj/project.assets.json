@@ -4012,26 +4012,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\training.3\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\COMPUMARTS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\training.3\\source\\repos\\BethenyPieShop\\BethenyPieShop\\BethenyPieShop.csproj",
+      "projectUniqueName": "D:\\Summer Internship\\اكواد\\PieShop-with-Asp.Net-Core\\BethenyPieShop\\BethenyPieShop.csproj",
       "projectName": "BethenyPieShop",
-      "projectPath": "C:\\Users\\training.3\\source\\repos\\BethenyPieShop\\BethenyPieShop\\BethenyPieShop.csproj",
-      "packagesPath": "C:\\Users\\training.3\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\training.3\\source\\repos\\BethenyPieShop\\BethenyPieShop\\obj\\",
+      "projectPath": "D:\\Summer Internship\\اكواد\\PieShop-with-Asp.Net-Core\\BethenyPieShop\\BethenyPieShop.csproj",
+      "packagesPath": "C:\\Users\\COMPUMARTS\\.nuget\\packages\\",
+      "outputPath": "D:\\Summer Internship\\اكواد\\PieShop-with-Asp.Net-Core\\BethenyPieShop\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\training.3\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\COMPUMARTS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4056,8 +4049,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -4093,7 +4085,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

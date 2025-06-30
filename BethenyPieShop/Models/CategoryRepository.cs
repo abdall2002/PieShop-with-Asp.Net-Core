@@ -6,7 +6,7 @@
 
         public CategoryRepository(BethenysPieShopDbContext bethenysPieShopDbContext)
         {
-            bethenysPieShopDbContext = bethenysPieShopDbContext;
+            _bethenysPieShopDbContext = bethenysPieShopDbContext;
         }
 
         public IEnumerable<Category> AllCategories => _bethenysPieShopDbContext.Categories.OrderBy(p => p.CategoryName);

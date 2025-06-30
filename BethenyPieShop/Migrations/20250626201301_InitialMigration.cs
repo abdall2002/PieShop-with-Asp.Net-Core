@@ -5,7 +5,7 @@
 namespace BethenyPieShop.Migrations
 {
     /// <inheritdoc />
-    public partial class AddShoppingCartItem : Migration
+    public partial class InitialMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -53,7 +53,7 @@ namespace BethenyPieShop.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "ShoppingCardItems",
+                name: "ShoppingCartItems",
                 columns: table => new
                 {
                     ShoppingCartItemId = table.Column<int>(type: "int", nullable: false)
@@ -64,9 +64,9 @@ namespace BethenyPieShop.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_ShoppingCardItems", x => x.ShoppingCartItemId);
+                    table.PrimaryKey("PK_ShoppingCartItems", x => x.ShoppingCartItemId);
                     table.ForeignKey(
-                        name: "FK_ShoppingCardItems_Pies_PieId",
+                        name: "FK_ShoppingCartItems_Pies_PieId",
                         column: x => x.PieId,
                         principalTable: "Pies",
                         principalColumn: "PieId",
@@ -79,8 +79,8 @@ namespace BethenyPieShop.Migrations
                 column: "CategoryId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_ShoppingCardItems_PieId",
-                table: "ShoppingCardItems",
+                name: "IX_ShoppingCartItems_PieId",
+                table: "ShoppingCartItems",
                 column: "PieId");
         }
 
@@ -88,7 +88,7 @@ namespace BethenyPieShop.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "ShoppingCardItems");
+                name: "ShoppingCartItems");
 
             migrationBuilder.DropTable(
                 name: "Pies");

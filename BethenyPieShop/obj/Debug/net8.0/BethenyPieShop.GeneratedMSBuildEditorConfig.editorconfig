@@ -9,45 +9,67 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BethenyPieShop
 build_property.RootNamespace = BethenyPieShop
-build_property.ProjectDir = C:\Users\training.3\source\repos\BethenyPieShop\BethenyPieShop\
+build_property.ProjectDir = D:\Summer Internship\اكواد\PieShop-with-Asp.Net-Core\BethenyPieShop\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\training.3\source\repos\BethenyPieShop\BethenyPieShop
+build_property.MSBuildProjectDirectory = D:\Summer Internship\اكواد\PieShop-with-Asp.Net-Core\BethenyPieShop
 build_property._RazorSourceGeneratorDebug = 
-build_property.EffectiveAnalysisLevelStyle = 8.0
-build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/training.3/source/repos/BethenyPieShop/BethenyPieShop/Views/Home/Index.cshtml]
+[D:/Summer Internship/اكواد/PieShop-with-Asp.Net-Core/BethenyPieShop/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Summer Internship/اكواد/PieShop-with-Asp.Net-Core/BethenyPieShop/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/training.3/source/repos/BethenyPieShop/BethenyPieShop/Views/Pie/Details.cshtml]
+[D:/Summer Internship/اكواد/PieShop-with-Asp.Net-Core/BethenyPieShop/Views/Order/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ2hlY2tvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Summer Internship/اكواد/PieShop-with-Asp.Net-Core/BethenyPieShop/Views/Order/CheckoutComplete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ2hlY2tvdXRDb21wbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Summer Internship/اكواد/PieShop-with-Asp.Net-Core/BethenyPieShop/Views/Pie/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGllXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/training.3/source/repos/BethenyPieShop/BethenyPieShop/Views/Pie/List.cshtml]
+[D:/Summer Internship/اكواد/PieShop-with-Asp.Net-Core/BethenyPieShop/Views/Pie/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGllXExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/training.3/source/repos/BethenyPieShop/BethenyPieShop/Views/Shared/_Carousel.cshtml]
+[D:/Summer Internship/اكواد/PieShop-with-Asp.Net-Core/BethenyPieShop/Views/Shared/Components/CategoryMenu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcnlNZW51XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Summer Internship/اكواد/PieShop-with-Asp.Net-Core/BethenyPieShop/Views/Shared/Components/ShoppingCartSummary/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2hvcHBpbmdDYXJ0U3VtbWFyeVxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Summer Internship/اكواد/PieShop-with-Asp.Net-Core/BethenyPieShop/Views/Shared/_Carousel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXJvdXNlbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/training.3/source/repos/BethenyPieShop/BethenyPieShop/Views/Shared/_Layout.cshtml]
+[D:/Summer Internship/اكواد/PieShop-with-Asp.Net-Core/BethenyPieShop/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/training.3/source/repos/BethenyPieShop/BethenyPieShop/Views/Shared/_PieCard.cshtml]
+[D:/Summer Internship/اكواد/PieShop-with-Asp.Net-Core/BethenyPieShop/Views/Shared/_PieCard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QaWVDYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/training.3/source/repos/BethenyPieShop/BethenyPieShop/Views/_ViewImports.cshtml]
+[D:/Summer Internship/اكواد/PieShop-with-Asp.Net-Core/BethenyPieShop/Views/ShoppingCart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Summer Internship/اكواد/PieShop-with-Asp.Net-Core/BethenyPieShop/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/training.3/source/repos/BethenyPieShop/BethenyPieShop/Views/_ViewStart.cshtml]
+[D:/Summer Internship/اكواد/PieShop-with-Asp.Net-Core/BethenyPieShop/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
