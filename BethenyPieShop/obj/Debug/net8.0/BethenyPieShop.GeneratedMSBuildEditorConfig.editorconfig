@@ -18,6 +18,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Summer Internship\اكواد\PieShop-with-Asp.Net-Core\BethenyPieShop
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Summer Internship/اكواد/PieShop-with-Asp.Net-Core/BethenyPieShop/Pages/CheckoutCompletePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tvdXRDb21wbGV0ZVBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Summer Internship/اكواد/PieShop-with-Asp.Net-Core/BethenyPieShop/Pages/CheckoutPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tvdXRQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Summer Internship/اكواد/PieShop-with-Asp.Net-Core/BethenyPieShop/Pages/Shared/_PageLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9QYWdlTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Summer Internship/اكواد/PieShop-with-Asp.Net-Core/BethenyPieShop/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Summer Internship/اكواد/PieShop-with-Asp.Net-Core/BethenyPieShop/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Summer Internship/اكواد/PieShop-with-Asp.Net-Core/BethenyPieShop/Views/Contact/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

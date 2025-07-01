@@ -13,6 +13,7 @@ builder.Services.AddHttpContextAccessor();
 
 
 builder.Services.AddControllersWithViews();
+builder.Services.AddRazorPages();
 builder.Services.AddDbContext<BethenysPieShopDbContext>(options =>
 {
     options.UseSqlServer(
@@ -29,5 +30,6 @@ if(app.Environment.IsDevelopment())
     app.UseDeveloperExceptionPage();
 }
 app.MapDefaultControllerRoute();
+app.MapRazorPages();
 DbInitializer.Seed(app);
 app.Run();
