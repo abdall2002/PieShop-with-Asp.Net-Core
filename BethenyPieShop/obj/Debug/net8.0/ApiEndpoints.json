@@ -11,6 +11,22 @@
   },
   {
     "ContainingType": "BethenyPieShop.Controllers.Api.SearchController",
+    "Method": "SearchPies",
+    "RelativePath": "api/Search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchQuery",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BethenyPieShop.Controllers.Api.SearchController",
     "Method": "GetById",
     "RelativePath": "api/Search/{id}",
     "HttpMethod": "GET",

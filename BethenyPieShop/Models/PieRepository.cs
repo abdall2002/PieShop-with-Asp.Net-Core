@@ -32,7 +32,7 @@ namespace BethenyPieShop.Models
         }
         public IEnumerable<Pie> SearchPies(string searchQuery)
         {
-            throw new NotImplementedException();
+            return _bethenysPieShopDbContext.Pies.Where(p => p.Name.Contains(searchQuery));
         }
     }
 }
