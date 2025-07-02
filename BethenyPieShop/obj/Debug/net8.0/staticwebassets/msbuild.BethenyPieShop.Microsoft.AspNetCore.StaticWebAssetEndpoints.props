@@ -1,5 +1,17 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/BethenyPieShop/BethenyPieShop.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BethenyPieShop.y30n8rwjh9.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-sostQ36AvVKuexIvbrzLpsdnRYwz98jElerGTrF5RgY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5897"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022sostQ36AvVKuexIvbrzLpsdnRYwz98jElerGTrF5RgY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Jul 2025 11:46:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BethenyPieShop/BethenyPieShop.y30n8rwjh9.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BethenyPieShop.y30n8rwjh9.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"y30n8rwjh9"},{"Name":"integrity","Value":"sha256-sostQ36AvVKuexIvbrzLpsdnRYwz98jElerGTrF5RgY="},{"Name":"label","Value":"_content/BethenyPieShop/BethenyPieShop.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5897"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022sostQ36AvVKuexIvbrzLpsdnRYwz98jElerGTrF5RgY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Jul 2025 11:46:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BethenyPieShop/css/site.5gredc3cub.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

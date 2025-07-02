@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\training.3\\Source\\Repos\\PieShop-with-Asp.Net-Core\\BethenyPieShopTests\\BethenyPieShopTests.csproj": {}
+    "C:\\Users\\training.3\\source\\repos\\PieShop-with-Asp.Net-Core\\BethenyPieShopTests\\BethenyPieShopTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\training.3\\Source\\Repos\\PieShop-with-Asp.Net-Core\\BethenyPieShopTests\\BethenyPieShopTests.csproj": {
+    "C:\\Users\\training.3\\source\\repos\\PieShop-with-Asp.Net-Core\\BethenyPieShopTests\\BethenyPieShopTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\training.3\\Source\\Repos\\PieShop-with-Asp.Net-Core\\BethenyPieShopTests\\BethenyPieShopTests.csproj",
+        "projectUniqueName": "C:\\Users\\training.3\\source\\repos\\PieShop-with-Asp.Net-Core\\BethenyPieShopTests\\BethenyPieShopTests.csproj",
         "projectName": "BethenyPieShopTests",
-        "projectPath": "C:\\Users\\training.3\\Source\\Repos\\PieShop-with-Asp.Net-Core\\BethenyPieShopTests\\BethenyPieShopTests.csproj",
+        "projectPath": "C:\\Users\\training.3\\source\\repos\\PieShop-with-Asp.Net-Core\\BethenyPieShopTests\\BethenyPieShopTests.csproj",
         "packagesPath": "C:\\Users\\training.3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\training.3\\Source\\Repos\\PieShop-with-Asp.Net-Core\\BethenyPieShopTests\\obj\\",
+        "outputPath": "C:\\Users\\training.3\\source\\repos\\PieShop-with-Asp.Net-Core\\BethenyPieShopTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\training.3\\Source\\Repos\\PieShop-with-Asp.Net-Core\\BethenyPieShop\\BethenyPieShop.csproj": {
-                "projectPath": "C:\\Users\\training.3\\Source\\Repos\\PieShop-with-Asp.Net-Core\\BethenyPieShop\\BethenyPieShop.csproj"
+              "C:\\Users\\training.3\\source\\repos\\PieShop-with-Asp.Net-Core\\BethenyPieShop\\BethenyPieShop.csproj": {
+                "projectPath": "C:\\Users\\training.3\\source\\repos\\PieShop-with-Asp.Net-Core\\BethenyPieShop\\BethenyPieShop.csproj"
               }
             }
           }
@@ -96,14 +96,14 @@
         }
       }
     },
-    "C:\\Users\\training.3\\Source\\Repos\\PieShop-with-Asp.Net-Core\\BethenyPieShop\\BethenyPieShop.csproj": {
+    "C:\\Users\\training.3\\source\\repos\\PieShop-with-Asp.Net-Core\\BethenyPieShop\\BethenyPieShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\training.3\\Source\\Repos\\PieShop-with-Asp.Net-Core\\BethenyPieShop\\BethenyPieShop.csproj",
+        "projectUniqueName": "C:\\Users\\training.3\\source\\repos\\PieShop-with-Asp.Net-Core\\BethenyPieShop\\BethenyPieShop.csproj",
         "projectName": "BethenyPieShop",
-        "projectPath": "C:\\Users\\training.3\\Source\\Repos\\PieShop-with-Asp.Net-Core\\BethenyPieShop\\BethenyPieShop.csproj",
+        "projectPath": "C:\\Users\\training.3\\source\\repos\\PieShop-with-Asp.Net-Core\\BethenyPieShop\\BethenyPieShop.csproj",
         "packagesPath": "C:\\Users\\training.3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\training.3\\Source\\Repos\\PieShop-with-Asp.Net-Core\\BethenyPieShop\\obj\\",
+        "outputPath": "C:\\Users\\training.3\\source\\repos\\PieShop-with-Asp.Net-Core\\BethenyPieShop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -143,6 +143,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.1, )"
@@ -152,6 +160,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
